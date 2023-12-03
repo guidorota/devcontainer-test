@@ -14,8 +14,11 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
+	"workspaceMount": "source=ts-webapp-test,target=/workspace,type=volume",
+	"workspaceFolder": "/workspace",
+
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "yarn install"
+	"postCreateCommand": "sudo chown node /workspace"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
