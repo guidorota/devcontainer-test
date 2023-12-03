@@ -1,0 +1,9 @@
+{
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/nestjs-cli:2": {
+      "version": "2.0.14",
+      "resolved": "ghcr.io/devcontainers-contrib/features/nestjs-cli@sha256:4659eacc6bbc10f1869a1113df6a71df1802da6ff760202f244aa7f16bdc6f1a",
+      "integrity": "sha256:4659eacc6bbc10f1869a1113df6a71df1802da6ff760202f244aa7f16bdc6f1a"
+    }
+  }
+}
